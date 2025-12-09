@@ -1,7 +1,6 @@
 import styles from '../assets/styles/About.module.css'
 import Skills from './Skills'
 import wave2 from '../assets/images/wave2.svg'
-import profile from '../assets/images/profile.jpg'
 
 export default function About() {
   const skills: [string, number][] = [
