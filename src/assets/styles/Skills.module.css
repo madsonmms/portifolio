@@ -1,0 +1,59 @@
+.skillsGrid {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.skillRow {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.skillLabel {
+    width: 220px;
+    font-family: var(--font-serif);
+    color: var(--accent);
+    opacity: 0.95;
+}
+
+.skillDots {
+    display: flex;
+    gap: 8px;
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.12);
+    display: inline-block;
+}
+
+.dotFilled{
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: inline-block;
+}
+
+@media (max-width:900px){
+    .skillLabel{width:150px}
+}
+
+.dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.12);
+    display: inline-block
+}
+
+.dotFilled {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: inline-block
+}

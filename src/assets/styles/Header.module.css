@@ -1,0 +1,27 @@
+.header {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 28px 64px;
+    width: 100%;;
+    z-index: 99;
+}
+
+.brand {
+    font-family: var(--font-serif);
+    letter-spacing: 2px;
+    position: absolute;
+    left: 64px;
+}
+
+.dot {
+    opacity: 0.95;
+    margin-left: 8px
+}
+
+@media (max-width:900px) {
+    .header {
+        padding: 18px 24px
+    }
+}

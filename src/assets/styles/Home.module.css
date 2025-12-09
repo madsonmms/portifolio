@@ -1,0 +1,116 @@
+.home {
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(180deg, var(--bg-1) 60%, var(--bg-2) 100%);
+    display: flex;
+    flex-direction: column;
+}
+
+.wave {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.6;
+    z-index: 0;
+}
+
+.inner {
+    display: flex;
+    flex: 1;
+    padding: 6rem 8rem;
+    align-items: center;
+    justify-content: space-between
+}
+
+.left {
+    flex: 1
+}
+
+.name {
+    font-family: var(--font-serif);
+    font-size: 6.5rem;
+    line-height: 0.9;
+    margin: 0;
+    color: var(--accent)
+}
+
+.dotLarge {
+    font-size: 1.6rem;
+    vertical-align: top;
+    margin-left: 14px
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.roles {
+    font-family: var(--font-serif);
+    text-align: end;
+    line-height: 2.2;
+    font-size: 1.6rem
+}
+
+.amp {
+    font-size: 2rem;
+    margin: 8px 0
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 36px 64px
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--muted);
+    font-family: var(--font-serif)
+}
+
+.bar {
+    font-size: 1.6rem
+}
+
+.circle {
+    font-size: 1rem
+}
+
+.scroll,
+.scroll:hover,
+.scroll:focus {
+    z-index: 2;
+    background: none;
+    border: none;
+    outline: none
+}
+
+@media (max-width:900px) {
+    .inner {
+        flex-direction: column;
+        gap: 2rem;
+        padding: 4rem 2rem
+    }
+
+    .name {
+        font-size: 3.6rem;
+        text-align: center
+    }
+
+    .right {
+        order: 3
+    }
+
+    .footer {
+        padding: 20px
+    }
+}

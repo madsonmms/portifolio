@@ -1,0 +1,27 @@
+:root {
+  --bg-1: #3f2023;
+  /* main maroon */
+  --bg-2: #2f1416;
+  /* darker */
+  --accent: #fff;
+  --muted: rgba(255, 255, 255, 0.18);
+  --font-sans: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  --font-serif: 'Playfair Display', Georgia, 'Times New Roman', serif;
+}
+
+* {
+  box-sizing: border-box
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background: var(--bg-1);
+  color: var(--accent);
+}
