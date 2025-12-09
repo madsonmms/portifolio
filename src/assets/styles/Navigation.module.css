@@ -15,6 +15,7 @@
 
 .item:hover,
 .item:focus{
+    color: white;
     text-decoration: none;
     background-color: var(--bg-2);
 }
